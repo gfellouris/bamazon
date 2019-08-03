@@ -17,13 +17,12 @@ This project was created to help simulate the purchase and inventory of products
 ## Features
 Immediate inventory updates and blazing fast database updates.
 
-## Screenshots
-Include logo/demo screenshot etc.
+## Screenshots / Video
 
-### Screencastify (video)
+### Screencastify (video of bamazon simulation)
 - [Screencastify](https://drive.google.com/file/d/1P-CFgQU1EEvm2cyYnHKURgdGEvTmwYaW/view?usp=sharing)
 
-### GIF (Video)
+### GIF (Video of bamazon simulation)
 - [GIF](bamazonCLI.gif)
 
 ## Code Example
@@ -38,11 +37,11 @@ Include logo/demo screenshot etc.
 
 ## How to use?
 ### install npm packages:
-npm i mysql
-npm i inquirer
+* npm i mysql
+* npm i inquirer
 
 ### Run the program by type:
-node bamazonCustomer.js
+* node bamazonCustomer.js
 
 ## Credits
 Shout-out to @Hetal for showing us the console.table function which gives the CLI a much nicer look with less code!
