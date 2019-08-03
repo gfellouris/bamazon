@@ -11,12 +11,20 @@ This project was created to help simulate the purchase and inventory of products
 - mySQL (npm) - used in order to store and update inventory that would be dynamic and maintained even when the app is not running.
 - Inquirer (npm) - used to receive user input.
 - Node.js - used to process user input.
+- Screencastify - to record the CLI activity
+- cloudconvert - to convert screencastify to a gif
 
 ## Features
 Immediate inventory updates and blazing fast database updates.
 
 ## Screenshots
 Include logo/demo screenshot etc.
+
+### Screencastify (video)
+- [Screencastify](https://drive.google.com/file/d/1P-CFgQU1EEvm2cyYnHKURgdGEvTmwYaW/view?usp=sharing)
+
+### GIF (Video)
+- [GIF](bamazonCLI.gif)
 
 ## Code Example
 ### Process Flow
@@ -37,6 +45,7 @@ npm i inquirer
 node bamazonCustomer.js
 
 ## Credits
-Shout-out to Hetal for showing us the console.table function which gives the CLI a much nicer look with less code!
+Shout-out to @Hetal for showing us the console.table function which gives the CLI a much nicer look with less code!
+Thanks to @Vanessa for telling me about cloudconvert to convert my screencastify to a gif!
 
 MIT © [George Fellouris]()
