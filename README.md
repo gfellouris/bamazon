@@ -19,20 +19,23 @@ Immediate inventory updates and blazing fast database updates.
 Include logo/demo screenshot etc.
 
 ## Code Example
-Show what your project does as concisely as possible, developers should be able to figure out **how** your project solves their problem by looking at the code example. Make sure the API you are showing off is obvious, and that your code is short and concise.
+![Process Flow](bamazon_processflow.jpg)
 
-## Installation
-Provide step by step series of examples and explanations about how to get a development env running.
+### The main functions are:
+* queryAllProducts - selects all the products from the database and lists it in a table
+* getProductInfo - using inquirer to ask the user which product and the qty they want to purchase
+* checkquantity - check that 1) inventory exists 2) we have enough in inventory, if yes, then it processes the order
+* continueShopping - Is used multiple times to see if the user wants to continue shopping or exit.
 
 ## How to use?
-If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
+### install npm packages:
+npm i mysql
+npm i inquirer
+
+### Run the program by type:
+node bamazonCustomer.js
 
 ## Credits
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project. 
+Shout-out to Hetal for showing us the console.table function which gives the CLI a much nicer look with less code!
 
-#### Anything else that seems useful
-
-## License
-A short snippet describing the license (MIT, Apache etc)
-
-MIT © [Yourname]()
+MIT © [George Fellouris]()
