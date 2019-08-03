@@ -44,7 +44,7 @@ Immediate inventory updates and blazing fast database updates.
 * node bamazonCustomer.js
 
 ## Credits
-Shout-out to @Hetal for showing us the console.table function which gives the CLI a much nicer look with less code!
-Thanks to @Vanessa for telling me about cloudconvert to convert my screencastify to a gif!
+- Shout-out to **Hetal** for showing us the console.table function which gives the CLI a much nicer look with less code!
+- Thanks to **Vanessa** for telling me about cloudconvert to convert my screencastify to a gif!
 
 MIT © [George Fellouris]()
