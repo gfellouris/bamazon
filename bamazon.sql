@@ -44,5 +44,7 @@ VALUES ("Shirts", "Clothing",30.00,20);
 INSERT INTO products(product_name, department_name, price, stock_quantity)
 VALUES ("Socks", "Clothing",5.00,50);
 
-select * from products 
+use bamazon
+select * from products
+where item_id = 3;
 

@@ -81,11 +81,6 @@ function queryAllProducts() {
   connection.query(sqlAllProducts, function(err, res) {
     if (err) throw err;
     console.table(res);
-    // for (var i = 0; i < res.length; i++) {
-    //   console.log(res[i].item_id + " | " + res[i].product_name + " | " + res[i].price);
-    // }
-    // console.log("-----------------------------------");
-
     getProductInfo();
   });
 }
