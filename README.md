@@ -19,6 +19,7 @@ Immediate inventory updates and blazing fast database updates.
 Include logo/demo screenshot etc.
 
 ## Code Example
+### Process Flow
 ![Process Flow](bamazon_processflow.jpg)
 
 ### The main functions are:
