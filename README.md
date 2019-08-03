@@ -1,11 +1,10 @@
-## BAmazon - The "B" is for "Better than Amazon!". j- The ** What **
+## BAmazon - The "B" is for "Better than Amazon!". - The **What**
 - [GitHub repo](https://github.com/gfellouris/bamazon.git)
 
 BAmazon is  an Amazon-like storefront that will take in orders from customers and deplete stock from the store's inventory. 
 
-## Motivation - The ** Why **
+## Motivation - The **Why**
 This project was created to help simulate the purchase and inventory of products using a command-line-interface (CLI).  It teaches the foundations for coding in node as well as working with a SQL datbase.
-A short description of the motivation behind the creation. This should cover **why** the project exists and what drove you to choose this project.
 
 ## Technologies used and why
 <b>Built with</b>
